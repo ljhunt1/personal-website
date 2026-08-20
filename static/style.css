@@ -1,0 +1,66 @@
+/* Simple, readable, web-1-ish. The content does the work. */
+
+:root {
+  --text: #1a1a1a;
+  --bg: #fdfdf8;
+  --link: #14640a;
+  --muted: #666;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--text);
+  background: var(--bg);
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 3rem;
+}
+
+nav {
+  margin: 1rem 0 2.5rem;
+  font-family: -apple-system, system-ui, sans-serif;
+  font-size: 0.9rem;
+}
+nav a { margin-right: 1.25em; }
+
+a { color: var(--link); }
+a:hover { text-decoration-thickness: 2px; }
+
+h1, h2, h3 { line-height: 1.2; }
+h1 { font-size: 1.6rem; }
+
+.date { color: var(--muted); font-size: 0.9em; }
+.desc { color: var(--muted); }
+
+ul.post-list { list-style: none; padding: 0; }
+ul.post-list li { margin-bottom: 0.5em; }
+ul.post-list .date { margin-right: 0.75em; font-variant-numeric: tabular-nums; }
+
+blockquote {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 3px solid #ccc;
+  color: #333;
+}
+
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.9em;
+}
+pre { padding: 0.75em 1em; overflow-x: auto; }
+
+img { max-width: 100%; }
+
+hr { border: none; border-top: 1px solid #ddd; margin: 2em 0; }
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: var(--muted);
+}

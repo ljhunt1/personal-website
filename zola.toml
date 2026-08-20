@@ -1,0 +1,14 @@
+# The URL the site will be deployed to (update when you pick a domain)
+base_url = "https://example.com"
+
+title = "Liam Hunt"
+compile_sass = false
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+
+[extra]
+email = "hunt.liamjoseph@gmail.com"
+substack_url = "https://example.substack.com"  # TODO: real URL
+github_url = "https://github.com/example"      # TODO: real URL
