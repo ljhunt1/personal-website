@@ -38,7 +38,7 @@ people out into the desert every summer, keep them well-fed and well-shaded,
 run a cafe in the mornings, and build a 24-foot tall geodesic sphere with
 trampoline inside and a light-show on top. Check it out!
 
-<img src="/sphere_2024.jpg" alt="A 24-foot geodesic sphere at Burning Man, lit up at night">
+<img src="sphere_2024.jpg" alt="A 24-foot geodesic sphere at Burning Man, lit up at night">
 
 I'm also always up for interesting conversations and new friends in the Bay —
 that's most of why this site exists.
@@ -64,9 +64,9 @@ at NGPVAN (3yr, CRM for political campaigns) → pivoting to AI safety
 
 <!-- TODO: once real posts exist, highlight 1-2 here by hand. -->
 
-* "Serious" technical writing: [/writing](/writing/)
+* "Serious" technical writing: [/writing](@/writing/_index.md)
 * "Serious" nontechnical writing: [Substack](https://example.substack.com) <!-- TODO: real URL -->
-* Frivolous writing: [/stuff](/stuff/)
+* Frivolous writing: [/stuff](@/stuff/_index.md)
 
 ### Elsewhere
 
