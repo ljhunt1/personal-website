@@ -11,21 +11,35 @@
 
 body {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.05rem;
-  line-height: 1.55;
+  font-size: 1rem;
+  line-height: 1.5;
   color: var(--text);
   background: var(--bg);
-  max-width: 40em;
+  max-width: 38em;
   margin: 0 auto;
   padding: 1rem 1.25rem 3rem;
 }
 
-nav {
-  margin: 1rem 0 2.5rem;
-  font-family: -apple-system, system-ui, sans-serif;
-  font-size: 0.9rem;
+header {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5em;
+  margin: 1rem 0 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
 }
-nav a { margin-right: 1.25em; }
+.site-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--text);
+  text-decoration: none;
+}
+.site-name:hover { color: var(--link); }
+nav {
+  font-family: -apple-system, system-ui, sans-serif;
+  font-size: 0.85rem;
+}
+nav a { margin-right: 1.1em; }
 
 a { color: var(--link); }
 a:hover { text-decoration-thickness: 2px; }
@@ -44,10 +58,16 @@ ul.post-list .date { margin-right: 0.75em; font-variant-numeric: tabular-nums; }
   border: 1px solid #b8ccb0;
   background: #f2f7ef;
   border-radius: 4px;
-  padding: 0.1em 1em;
-  margin: 1.25em 0;
-  font-size: 0.95em;
+  padding: 0.65em 1em;
+  margin: 1em 0;
+  font-size: 0.85em;
+  line-height: 1.45;
 }
+/* Compact spacing inside callouts: no leading/trailing gaps, tight lists */
+.callout p { margin: 0 0 0.5em; }
+.callout p:last-child { margin-bottom: 0; }
+.callout ul { margin: 0.25em 0 0.5em; padding-left: 1.4em; }
+.callout li { margin: 0; }
 
 /* First line flush left; arrow lines (after <br>) and wraps indent. */
 p.career { padding-left: 1.25em; text-indent: -1.25em; line-height: 1.7; }

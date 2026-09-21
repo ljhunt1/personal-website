@@ -2,11 +2,9 @@
 title = "Liam Hunt"
 +++
 
-# Liam Hunt
-
 <div class="callout">
 
-**(Sep 2026)** I'm actively looking for collaborators, contract work, and
+**(Sep 2026)** I'm looking for collaborators, contract work, and
 full-time employment. I'm most interested in: mission-driven software
 projects, projects related to AI safety research, smaller workplaces (4–30
 employees). Shoot me an email at
@@ -16,22 +14,27 @@ employees). Shoot me an email at
 
 <div class="callout">
 
-**(Sep 2026)** I'm looking for a room in SF starting ~mid-Oct. Timing and
-neighborhood flexible, budget $3k. Preference for: group houses (5+ people),
-sociable environments with some "togetherness", mid- to long-term stays
-(2mo–1yr). Past housemates would describe me as tidy and conscientious, laid
+**(Sep 2026)** I'm looking for a room in SF starting ~mid-Oct.
+
+- Timing and neighborhood flexible
+- Budget $3k
+- Prefer group houses (5+ people)
+- Prefer sociable environments with some "togetherness"
+- Prefer mid- to long-term stays (2mo–1yr)
+
+Past housemates would describe me as tidy and conscientious, laid
 back, a good listener. [Email me](mailto:hunt.liamjoseph@gmail.com) if you
-know of anything (or if you want to start a house together 👀).
+know of anything (or if you want to start a house together!).
 
 </div>
 
 Hi, I'm Liam! I'm a software engineer (4 YoE) and AI safety researcher
 (0.25 YoE). SF-based since Jun 2026, NYC before that (2019–2026), Princeton
 NJ before that (1997–2019). Currently coworking out of
-[Mox](https://moxsf.com).
+[Mox](https://moxsf.com). [More about me →](@/about.md)
 
 I'm always up for interesting conversations and new friends in the Bay —
-that's most of why this site exists. [More about me →](@/about.md)
+that's most of why this site exists.
 
 ### Writing
 

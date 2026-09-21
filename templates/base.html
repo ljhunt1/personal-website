@@ -9,12 +9,14 @@
   {% block extra_head %}{% endblock extra_head %}
 </head>
 <body>
-  <nav>
-    <a href="{{ get_url(path='') }}">home</a>
-    <a href="{{ get_url(path='writing') }}">writing</a>
-    <a href="{{ get_url(path='stuff') }}">stuff</a>
-    <a href="{{ get_url(path='about') }}">about</a>
-  </nav>
+  <header>
+    <a class="site-name" href="{{ get_url(path='') }}">Liam Hunt</a>
+    <nav>
+      <a href="{{ get_url(path='about') }}">about</a>
+      <a href="{{ get_url(path='writing') }}">writing</a>
+      <a href="{{ get_url(path='stuff') }}">stuff</a>
+    </nav>
+  </header>
   <main>
     {% block content %}{% endblock content %}
   </main>
