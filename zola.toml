@@ -11,4 +11,4 @@ feed_filenames = ["atom.xml"]
 [extra]
 email = "hunt.liamjoseph@gmail.com"
 substack_url = "https://example.substack.com"  # TODO: real URL
-github_url = "https://github.com/example"      # TODO: real URL
+github_url = "https://github.com/ljhunt1"      # TODO: real URL
